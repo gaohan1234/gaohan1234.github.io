@@ -1,58 +1,180 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
 
+<html lang="en">
 <head>
   <title>Han Gao</title>
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/menu.js"></script>
-  <style>
-    .menu-index {
-      color: rgb(255, 255, 255) !important;
-      opacity: 1 !important;
-      font-weight: 700 !important;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-  <div class="menu-container"></div>
-  <div class="content-container">
-    <div class="content">
-      <div class="content-table flex-column">
-        <!-------------------------------------------------------------------------------------------->
-          <!--Start Intro-->
-          <div class="flex-row">
-            <div class="flex-item flex-column">
-              <img class="image" src="img/IMG_4939.JPG" style="width: 30%; height: 30%"/>
+
+
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="index.html">Home</a></li>
+				  <!-- <li><a href="#">Projects</a></li> -->
+				  <li><a href="#publications">Publications</a></li> 
+				  <!-- <li><a href="#">CV</a></li>  -->
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+  
+  <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Entries Column -->
+            <div class="col-md-8" style="height: 100vh;">
+                
+                <!-- Main Image -->
+                <img class="img-responsive" src="img/SC.png" style="width: 70%; height: 30%" alt=""><br>
+                <div style="margin-top:3%; text-align:justify;">                
+					<p> 科研好像流沙 我不掙扎 隨它去吧 我不害怕 I am now working with <a href="https://seas.harvard.edu/person/petros-koumoutsakos">Prof. Petros Koumoutsakos</a> at Harvard University. I obtained my Ph.D. degree in Aerospace and Mechanical Engineering at University of Notre Dame (2018 summer to 2023 summer) advised by <a href="http://sites.nd.edu/jianxun-wang/">Prof. Jian-Xun Wang</a>. 
+            I am also very fortunate to work with <a href="https://mjzahr.github.io/">Prof. Matthew J. Zahr</a>. 
+            I received my master’s degree in Mechanical Engineering & Materials Science (MEMS) at Washington University in St. Louis (WUSTL) advised by 
+            <a href="https://engineering.wustl.edu/faculty/Ramesh-Agarwal.html">Prof. Ramesh Agarwal</a> and bachelor’s degree in Shanghai University of Electric Power where I was having fun.</p>
+                </div>
+            </div> 
+
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-4">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Han Gao</b></div><br>
+                <p><b>hgao1@seas.harvard.edu</b><br>
+                <p>Applied Mathematics at Harvard School of Engineering<br>
+                <!-- Harvard University<br>
+                Pierce 314<br>
+                Cambridge <br>
+                USA<br> -->
+                </p>
             </div>
-            <div class="flex-item flex-column">
-              <p class="text text-large">
-                <a target="_blank" href="https://scholar.google.com/citations?user=iYlVxoYAAAAJ&hl=en">Han Gao</a>, hgao1@seas.harvard.edu<br>
-              </p>
+            
+            
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:2%">
+              <dd><a href=https://scholar.google.com/citations?user=ozQz4CQAAAAJ&hl=zh-CN>Google Scholar</a>  </dd> 
+              <dd><a href=https://www.linkedin.com/in/%E6%B6%B5-han-%E9%AB%98-gao-87038a143/>LinkedIn</a></dd>
             </div>
-          </div>
-          <div class="flex-row">
-            <div class="flex-item flex-column">
-              <p class="text add-top-margin">
-                I am now working with <a href="https://seas.harvard.edu/person/petros-koumoutsakos">Prof. Petros Koumoutsakos</a> at Harvard University. I obtained my Ph.D. degree in Aerospace and Mechanical Engineering at University of Notre Dame (2018 summer to 2023 summer) advised by <a href="http://sites.nd.edu/jianxun-wang/">Prof. Jian-Xun Wang</a>. 
-                I am also very fortunate to work with <a href="https://mjzahr.github.io/">Prof. Matthew J. Zahr</a>. 
-                I received my master’s degree in Mechanical Engineering & Materials Science (MEMS) at Washington University in St. Louis (WUSTL) advised by 
-                <a href="https://engineering.wustl.edu/faculty/Ramesh-Agarwal.html">Prof. Ramesh Agarwal</a> and bachelor’s degree in Shanghai University of Electric Power where I was having fun.
-              </p>
+            
+            
+            <!-- Publications -->
+            <div class="col-md-8" style="height: 100vh;">    
+                <h2 id="publications">Publications</h2>
+                
+                <strong>Journal papers</strong><br/>
+                <ul>
+                <a href=https://www.sciencedirect.com/science/article/abs/pii/S0045782521007076>Physics-informed graph neural Galerkin networks: A unified framework for solving PDE-governed forward and inverse problems (Computer Methods in Applied Mechanics and Engineering)</a> Han Gao, Matthew J Zahr, Jian-Xun Wang
+                </ul>
+
+                <ul>
+                  <a href=https://pubs.aip.org/aip/pof/article/33/7/073603/1076765>Super-resolution and denoising of fluid flow using physics-informed convolutional neural networks without high-resolution labels (Physics of Fluids)</a> Han Gao, Jian-Xun Wang
+                </ul>
+
+                <ul>
+                  <a href=https://link.springer.com/article/10.1007/s00466-021-01979-6>A Bi-fidelity ensemble kalman method for PDE-constrained inverse problems in computational mechanics (Computational Mechanics)</a> Han Gao, Jian-Xun Wang
+                </ul>
+
+                <ul>
+                  <a href=https://www.sciencedirect.com/science/article/abs/pii/S0021999120308536>PhyGeoNet: Physics-informed geometry-adaptive convolutional neural networks for solving parameterized steady-state PDEs on irregular domain (Journal of Computational Physics)</a> Han Gao, Luning Sun, Jian-Xun Wang
+                </ul>
+
+                <ul>
+                  <a href=https://www.sciencedirect.com/science/article/abs/pii/S0167278919305573>Non-intrusive model reduction of large-scale, nonlinear dynamical systems using deep learning (Physica D: Nonlinear Phenomena)</a> Han Gao, Jian-Xun Wang, Matthew J Zahr
+                </ul>
+
+                <ul>
+                  <a href=https://www.sciencedirect.com/science/article/abs/pii/S0045782520302310>A bi-fidelity surrogate modeling approach for uncertainty propagation in three-dimensional hemodynamic simulations (Computer Methods in Applied Mechanics and Engineering)</a> Han Gao, Xueyu Zhu, Jian-Xun Wang
+                </ul>
+
+                <ul>
+                  <a href=https://www.sciencedirect.com/science/article/abs/pii/S004578251930622X>Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data (Computer Methods in Applied Mechanics and Engineering)</a> Luning Sun, Han Gao, Shaowu Pan, Jian-Xun Wang
+                </ul>
+
+                <ul>
+                  <a href=https://www.sciencedirect.com/science/article/abs/pii/S004578251930622X>Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data (Computer Methods in Applied Mechanics and Engineering)</a> Luning Sun, Han Gao, Shaowu Pan, Jian-Xun Wang
+                </ul>
+
+                <ul>
+                  <a href=https://arc.aiaa.org/doi/full/10.2514/1.C035086>Study of Round Jet Impingement in Proximity of Ground and Water Surface (Journal of Aircraft)</a> Han Gao, Quanzhong Liu, Qiulin Qu, Ramesh K Agarwal
+                </ul>
+
+            
+                <strong>Conference papers</strong><br/>
+                <ul>
+                  <a href=https://openreview.net/attachment?id=2JtwuJtoa0&name=pdf>Unifying Predictions of Deterministic and Stochastic Physics in Mesh-reduced Space with Sequential Flow Generative Model (NeurIPS 2023)</a> Luning Sun, Xu Han, Han Gao, Jian-Xun Wang, Liping Liu
+                </ul>
+
+                <ul>
+                  <a href=https://proceedings.mlr.press/v198/gao22a.html>PatchGT: Transformer Over Non-Trainable Clusters for Learning Graph Representations (Proceedings of the First Learning on Graphs Conference)</a> Han Gao (co-first), Xu Han (co-first), Jiaoyang Huang, Jian-Xun Wang, Liping Liu
+                </ul>
+
+                <ul>
+                  <a href=https://openreview.net/forum?id=XctLdNfCmP>Predicting Physics in Mesh-reduced Space with Temporal Attention  (ICLR 2022)</a> Xu Han (co-first), Han Gao (co-first), Tobias Pfaff, Jian-Xun Wang, Liping Liu
+                </ul>
+
+                <ul>
+                  <a href=https://arc.aiaa.org/doi/abs/10.2514/6.2020-2038>Numerical Investigation of a Submerged Water Jet Impinging at Various Angles on Ground  (AIAA Scitech 2020 Forum)</a> Xiang Zhang, Ramesh K. Agarwal, Han Gao and Ling Zhou
+                </ul>
+
+                <ul>
+                  <a href=https://arc.aiaa.org/doi/epdf/10.2514/6.2019-3643>Numerical Simulation of Fountain formation due to Twin-Jet impingement on Ground  (AIAA Scitech 2019 Forum)</a> Xiang Zhang, Ramesh K. Agarwal, Han Gao and Ling Zhou
+                </ul>
+
+                <ul>
+                  <a href=https://arc.aiaa.org/doi/abs/10.2514/6.2019-2305>Numerical Simulation of the Cavitation Flow around a Hydrofoil Based on a Coupled CFD-PBM Model  (AIAA Scitech 2019 Forum)</a> Quanzhong Liu, Kefan Xu, Han Gao and Ramesh K. Agarwal
+                </ul>
+
+                <ul>
+                  <a href=https://arc.aiaa.org/doi/abs/10.2514/6.2019-1099>Numerical Study of a Hovering Helicopter Rotor Blade in Ground Effect  (AIAA Scitech 2019 Forum)</a> Han Gao and Ramesh K. Agarwal
+                </ul>
+
+                <ul>
+                  <a href=https://arc.aiaa.org/doi/abs/10.2514/6.2018-3222>Numerical Investigation of Cavitation Characteristics of a Liquid Oxygen Turbo Pump  (AIAA Aviation 2019 Forum)</a> Quanzhong Liu, Lujia Gong, Han Gao and Ramesh K. Agarwal
+                </ul>
+
+                <ul>
+                  <a href=https://arc.aiaa.org/doi/abs/10.2514/6.2018-4257>Numerical Study of Round Jet Impingement in Proximity of Ground and a Water Surface  (AIAA Aviation 2018 Forum)</a> Han Gao, Quanzhong Liu, Qiulin Qu and Ramesh K. Agarwal
+                </ul>
+
+                <ul>
+                  <a href=https://arc.aiaa.org/doi/abs/10.2514/6.2018-4038>CFD Simulations of Two Rectangular Water Jets Impinging on a Water Pool  (AIAA Aviation 2018 Forum)</a> Han Gao, Xu Han, Quanzhong Liu and Ramesh K. Agarwal
+                </ul>
+
             </div>
-          </div>
-          <!--End Intro-->
-          <!-------------------------------------------------------------------------------------------->
-      </div>
+
+            
+        </div>
+
+
     </div>
-  </div>
+    <!-- /.container -->
+    
+    <!-- Other people may like it too! -->
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+    
 </body>
 
 </html>
