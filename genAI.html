@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI for Turbulence Modeling</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <style>
+   .project-image {
+    width: 100%;
+    height: auto;    /* 关键：按比例缩放 */
+    margin-bottom: 20px;
+  }
+  </style>
+</head>
+<body>
+
+<div class="container" style="margin-top: 40px;">
+  <h2>AI for Turbulence Modeling</h2>
+  <img src="img/genAI.png" alt="Turbulence Modeling" class="project-image">
+
+  <p>
+    We develop physics-informed generative frameworks—rooted in Bayesian diffusion models, guided diffusion, and latent-space
+    operator learning—to produce high-fidelity, spatiotemporally coherent turbulence data at RANS, LES, and DNS resolutions.
+    Our methods learn stochastic closures that respect realizability, enable conditional generation
+    from coarse or partial inputs, and accelerate flow prediction by orders of magnitude. Key capabilities include:<br>
+    • <b>Conditional synthesis</b> of LES-like fields from URANS or low-resolution data;<br>
+    • <b>Parametric generative solvers</b> forecasting flow dynamics across Reynolds-number ranges via gradient guidance and virtual observations;<br>
+    • <b>G-LED</b> (Generative Learning of Effective Dynamics), combining autoregressive attention with diffusion decoders to capture multiscale turbulence statistics efficiently.
+  </p>
+
+  <p>
+    Benchmark studies—channel flow, backward-facing step, supersonic boundary layers—show accurate spectra and
+    Reynolds-stress recovery with massive speed-ups over traditional solvers.
+  </p>
+
+  <h4>Related Publications</h4>
+  <ul>
+    <li>
+      Gao H., Wang J.-X. • <i>Bayesian Conditional Diffusion Models for Versatile Spatiotemporal Turbulence Generation</i>
+      — <a href="https://www.sciencedirect.com/science/article/pii/S0045782524002792">[Link]</a>
+    </li>
+    <li>
+      Gao H., Kaltenbach S., Koumoutsakos P. • <i>Generative Learning of the Solution of Parametric PDEs Using Guided Diffusion Models and Virtual Observations</i>
+      — <a href="https://www.sciencedirect.com/science/article/pii/S0045782524009083">[Link]</a>
+    </li>
+    <li>
+      Gao H., Kaltenbach S., Koumoutsakos P. • <i>Generative Learning for Forecasting the Dynamics of High-Dimensional Complex Systems</i>
+      — <a href="https://www.nature.com/articles/s41467-024-53165-w">[Link]</a>
+    </li>
+  </ul>
+
+  <a href="index.html">← Back to Homepage</a>
+</div>
+
+</body>
+</html>
